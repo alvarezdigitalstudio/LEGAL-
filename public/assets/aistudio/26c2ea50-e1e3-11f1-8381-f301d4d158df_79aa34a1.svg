@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1640 500" role="img" aria-labelledby="title desc">
+  <title id="title">VindexGomez Legal</title>
+  <desc id="desc">Logotipo de VindexGomez Legal con una columna clásica dentro de un rombo dorado.</desc>
+  <defs>
+    <linearGradient id="gold" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#8B7000"/>
+      <stop offset=".48" stop-color="#D1B33D"/>
+      <stop offset="1" stop-color="#9A7A08"/>
+    </linearGradient>
+  </defs>
+  <!-- Emblema simétrico -->
+  <g transform="translate(28 24)">
+    <path d="M228 0 456 228 228 456 0 228Z" fill="url(#gold)"/>
+    <!-- Frontón, entablamento y fustes en negativo -->
+    <path d="M228 43 339 151H117Z" fill="#fff"/>
+    <path d="M112 160H344L357 174H99Z" fill="#fff"/>
+    <path d="M99 185Q99 178 107 178H349Q357 178 357 185V213Q357 222 348 222H333V211Q333 203 325 203H131Q123 203 123 211V222H108Q99 222 99 213Z" fill="#fff"/>
+    <path d="M132 224H324Q320 245 300 245H156Q136 245 132 224Z" fill="#fff"/>
+    <path d="M156 246H192V424L156 390Z" fill="#fff"/>
+    <path d="M210 246H246V440L228 458 210 440Z" fill="#fff"/>
+    <path d="M264 246H300V390L264 424Z" fill="#fff"/>
+  </g>
+  <g fill="url(#gold)" font-family="Arial, Helvetica, sans-serif">
+    <text x="545" y="268" font-size="122" font-weight="700" letter-spacing="-3.5">VINDEXGOMEZ</text>
+    <text x="551" y="355" font-size="48" font-weight="600" letter-spacing="25">LEGAL</text>
+  </g>
+</svg>

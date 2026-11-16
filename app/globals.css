@@ -1,0 +1,105 @@
+@import "tailwindcss";
+
+@layer utilities {
+  .font-montserrat {
+    font-family: var(--font-montserrat), 'Montserrat', system-ui, sans-serif;
+  }
+  .font-open-sans {
+    font-family: var(--font-open-sans), 'Open Sans', system-ui, sans-serif;
+  }
+  .font-serif-legal {
+    font-family: var(--font-montserrat), 'Montserrat', system-ui, sans-serif;
+  }
+  .font-cinzel {
+    font-family: var(--font-montserrat), 'Montserrat', system-ui, sans-serif;
+  }
+  .font-sans-legal {
+    font-family: var(--font-open-sans), 'Open Sans', system-ui, sans-serif;
+  }
+}
+
+:root {
+  --color-gold: #D4AF37;
+  --color-gold-soft: #E7D18A;
+  --color-black: #0B0B0B;
+  --color-white: #FFFFFF;
+  --color-charcoal: #242424;
+  --color-neutral-gray: #666666;
+  --color-light-gray: #F5F5F5;
+}
+
+/* Base Clean Corporate Surface & Typography */
+body {
+  background-color: #FFFFFF;
+  color: #0B0B0B;
+  font-family: var(--font-open-sans), 'Open Sans', system-ui, -apple-system, sans-serif;
+}
+
+h1, h2, h3, h4, nav, button {
+  font-family: var(--font-montserrat), 'Montserrat', system-ui, sans-serif;
+}
+
+/* Strategic Gold Text Accent */
+.gold-gradient-text {
+  color: #D4AF37;
+}
+
+.gold-gradient-bg {
+  background-color: #D4AF37;
+}
+
+.gold-border-glow {
+  box-shadow: 0 4px 16px -4px rgba(212, 175, 55, 0.22);
+}
+
+/* Clean White & Charcoal Card Surface */
+.legal-card-corporate {
+  background: #FFFFFF;
+  border: 1px solid rgba(36, 36, 36, 0.12);
+  box-shadow: 0 6px 20px -6px rgba(11, 11, 11, 0.08);
+}
+
+.legal-card-corporate:hover {
+  border-color: #D4AF37;
+  box-shadow: 0 14px 28px -8px rgba(11, 11, 11, 0.14);
+}
+
+/* Skeleton Loading Shimmer to prevent Layout Shifts */
+@keyframes skeleton-shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.skeleton-shimmer {
+  background: linear-gradient(90deg, #F5F5F5 25%, #EAEAEA 50%, #F5F5F5 75%);
+  background-size: 200% 100%;
+  animation: skeleton-shimmer 1.8s infinite ease-in-out;
+}
+
+/* 3D Form and Card perspectives */
+.perspective-1000 {
+  perspective: 1000px;
+}
+
+.transform-3d {
+  transform-style: preserve-3d;
+}
+
+/* Custom scrollbar in clean corporate gold & black theme */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #F5F5F5;
+}
+::-webkit-scrollbar-thumb {
+  background: #666666;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D4AF37;
+}

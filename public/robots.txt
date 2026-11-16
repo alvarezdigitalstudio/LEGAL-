@@ -1,0 +1,11 @@
+# robots.txt — VINDEXGOMEZ LEGAL (https://vindexgomezlegal.com)
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: *
+Allow: /
+
+Sitemap: https://vindexgomezlegal.com/sitemap.xml

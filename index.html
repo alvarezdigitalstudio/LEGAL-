@@ -1,0 +1,1296 @@
+<!-- 
+  LICDO. JAIME GÓMEZ ARAÚZ | ABOGADO - IDONEIDAD NO. 22518
+  DAVID, CHIRIQUÍ, REPÚBLICA DE PANAMÁ
+  ARCHIVO ÚNICO AUTÓNOMO EJECUTABLE: index.html
+-->
+<!DOCTYPE html>
+<html lang="es" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Licdo. Jaime Gómez Araúz | Abogado en Chiriquí (Idoneidad No. 22518)</title>
+  <meta name="description" content="Despacho legal del Licdo. Jaime Gómez Araúz (Idoneidad No. 22518). Más de 10 años de experiencia ininterrumpida en Defensa Penal Estratégica, Familiar y Pública en David, Chiriquí, Panamá. Consulta confi padencial.">
+  <meta name="keywords" content="Abogado Chiriqui, Licdo Jaime Gomez Arauz, Abogado David Chiriqui, Defensa Penal Chiriqui, SPA David, Abogado Familia Chiriqui, Idoneidad 22518, ANATI Chiriqui, Bienes Raices Panama">
+  <meta name="author" content="Licdo. Jaime Gómez Araúz">
+  <meta name="robots" content="index, follow">
+
+  <!-- OpenGraph Social Cards -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Licdo. Jaime Gómez Araúz | Abogado en Chiriquí">
+  <meta property="og:description" content="Más de 10 años de experiencia en Defensa Penal Estratégica, Familiar y Pública en David, Chiriquí, Panamá. Idoneidad No. 22518.">
+  <meta property="og:image" content="https://lh3.googleusercontent.com/d/1C48Kr9_ZOiRRACrar1M7Jgn-Srzpcz9i">
+  <meta property="og:locale" content="es_PA">
+
+  <!-- Twitter Cards -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Licdo. Jaime Gómez Araúz | Abogado en Chiriquí">
+  <meta name="twitter:description" content="Más de 10 años de experiencia en Defensa Penal Estratégica, Familiar y Pública en Panamá.">
+  <meta name="twitter:image" content="https://lh3.googleusercontent.com/d/1C48Kr9_ZOiRRACrar1M7Jgn-Srzpcz9i">
+
+  <!-- Google Fonts: Playfair Display, Cinzel & Inter -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;600;700;800&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,500;0,600;0,700;0,800;1,400;1,600&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome 6 Icons via CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Tailwind CSS via CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brandNavy: '#0A192F',
+            brandDark: '#07101E',
+            brandGold: '#D4AF37',
+            brandGoldLight: '#E5C07B',
+            brandGoldDark: '#C5A059',
+          },
+          fontFamily: {
+            serif: ['"Playfair Display"', 'Georgia', 'serif'],
+            cinzel: ['"Cinzel"', 'Georgia', 'serif'],
+            sans: ['"Inter"', 'system-ui', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <style>
+    .gold-gradient-text {
+      background: linear-gradient(135deg, #FFF3D6 0%, #E5C07B 40%, #D4AF37 70%, #C5A059 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+    .aspect-3-4 {
+      aspect-ratio: 3 / 4;
+    }
+    .nav-link {
+      position: relative;
+      transition: all 0.2s ease;
+    }
+    .nav-link::after {
+      content: '';
+      position: absolute;
+      bottom: -2px;
+      left: 0;
+      width: 0;
+      height: 2px;
+      background: #D4AF37;
+      transition: width 0.25s ease;
+      border-radius: 2px;
+    }
+    .nav-link:hover::after {
+      width: 100%;
+    }
+    .nav-link.active-gold {
+      color: #B8860B !important;
+      font-weight: 700 !important;
+    }
+    .nav-link.active-gold::after {
+      width: 100% !important;
+      height: 2.5px !important;
+      background: linear-gradient(90deg, #D4AF37, #E5C07B, #B8860B) !important;
+    }
+    @keyframes gentle-pulse-ring {
+      0%, 100% {
+        transform: scale(1);
+        opacity: 0.5;
+      }
+      50% {
+        transform: scale(1.45);
+        opacity: 0;
+      }
+    }
+    @keyframes subtle-float {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(5px);
+      }
+    }
+    .animate-pulse-ring {
+      animation: gentle-pulse-ring 2.2s ease-in-out infinite;
+    }
+    .animate-subtle-float {
+      animation: subtle-float 2s ease-in-out infinite;
+    }
+    /* Scroll reveal progressive animation (fade-in + slide-up) */
+    .scroll-reveal {
+      opacity: 0;
+      transform: translateY(32px);
+      transition: opacity 0.65s cubic-bezier(0.21, 0.47, 0.32, 0.98), transform 0.65s cubic-bezier(0.21, 0.47, 0.32, 0.98);
+      will-change: opacity, transform;
+    }
+    .scroll-reveal.is-revealed {
+      opacity: 1 !important;
+      transform: translateY(0) !important;
+    }
+    ::-webkit-scrollbar { width: 8px; }
+    ::-webkit-scrollbar-track { background: #F1F5F9; }
+    ::-webkit-scrollbar-thumb { background: #CBD5E1; border-radius: 4px; border: 1px solid rgba(212, 175, 55, 0.3); }
+    ::-webkit-scrollbar-thumb:hover { background: #C5A059; }
+  </style>
+
+  <!-- Schema.org JSON-LD -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": ["LegalService", "Attorney"],
+        "@id": "https://jaimegomezarauz.com/#attorney",
+        "name": "Licdo. Jaime Gómez Araúz | Abogado",
+        "alternateName": "Jaime Gómez Araúz Abogado Chiriquí",
+        "image": "https://lh3.googleusercontent.com/d/1C48Kr9_ZOiRRACrar1M7Jgn-Srzpcz9i",
+        "logo": "images/logo.jpg",
+        "description": "Firma y representación legal del Licdo. Jaime Gómez Araúz (Idoneidad No. 22518). Más de 10 años de experiencia ininterrumpida en Defensa Familiar, Defensa Pública y Defensa Penal Estratégica en David, Chiriquí, Panamá.",
+        "address": {
+          "@type": "PostalAddress",
+          "streetAddress": "Villa Isabela, Oficina B-9",
+          "addressLocality": "David",
+          "addressRegion": "Chiriquí",
+          "postalCode": "0426",
+          "addressCountry": "PA"
+        },
+        "geo": {
+          "@type": "GeoCoordinates",
+          "latitude": "8.4273",
+          "longitude": "-82.4309"
+        },
+        "telephone": "+507 6455-6443",
+        "email": "licd.jaimegomez@proton.me",
+        "priceRange": "$$",
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday"],
+            "opens": "08:00",
+            "closes": "17:00"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Saturday"],
+            "opens": "08:30",
+            "closes": "12:30"
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-[#D4AF37]/30 selection:text-slate-900">
+
+  <!-- Top Executive Ticker -->
+  <div class="bg-[#0A192F] text-slate-200 text-xs border-b border-[#D4AF37]/30 py-2 px-4 sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto flex flex-wrap justify-between items-center gap-2">
+      <div class="flex items-center gap-3">
+        <span class="inline-flex items-center gap-1.5 text-[#E5C07B] font-semibold">
+          <i class="fa-solid fa-scale-balanced text-[#D4AF37]"></i>
+          Idoneidad Profesional CSJ: No. 22518
+        </span>
+        <span class="hidden sm:inline text-slate-600">|</span>
+        <span class="hidden sm:inline-flex items-center gap-1 text-slate-300">
+          <i class="fa-solid fa-location-dot text-[#D4AF37]"></i>
+          David, Chiriquí, Panamá
+        </span>
+      </div>
+      <div class="flex items-center gap-4 ml-auto">
+        <span class="hidden md:inline text-slate-300">Urgencias Penales & Audiencias SPA:</span>
+        <a href="tel:+50764556443" class="inline-flex items-center gap-1.5 text-[#E5C07B] hover:text-white font-semibold">
+          <i class="fa-solid fa-phone text-[#D4AF37]"></i>
+          +507 6455-6443
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sticky Corporate White Header -->
+  <header id="main-header" class="sticky top-[37px] z-40 bg-white/95 backdrop-blur-md border-b border-slate-200 shadow-sm transition-all duration-300">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-3 flex justify-between items-center">
+      <a href="#inicio" class="flex items-center gap-3 group">
+        <div class="relative w-12 h-12 md:w-14 md:h-14 rounded-full border-2 border-[#D4AF37]/60 bg-slate-950 p-1 flex-shrink-0 group-hover:border-[#D4AF37] shadow-sm transition-all overflow-hidden">
+          <img src="images/logo.jpg" alt="Logo Oficial Licdo. Jaime Gómez Araúz" class="w-full h-full object-contain" referrerpolicy="no-referrer">
+        </div>
+        <div>
+          <span class="block font-cinzel text-base md:text-lg font-bold tracking-wider text-[#0A192F] group-hover:text-[#B8860B] transition-colors leading-tight">
+            Licdo. Jaime Gómez Araúz
+          </span>
+          <span class="block text-[11px] md:text-xs text-[#A37016] font-semibold tracking-widest uppercase">
+            Abogado · Idoneidad No. 22518
+          </span>
+        </div>
+      </a>
+
+      <!-- Desktop Nav -->
+      <nav id="desktop-nav" class="hidden lg:flex items-center gap-7">
+        <a href="#inicio" class="nav-link text-sm font-semibold text-slate-700 hover:text-[#B8860B] transition-colors py-1">Inicio</a>
+        <a href="#sobre-el-abogado" class="nav-link text-sm font-semibold text-slate-700 hover:text-[#B8860B] transition-colors py-1">Sobre el Abogado</a>
+        <a href="#areas-de-practica" class="nav-link text-sm font-semibold text-slate-700 hover:text-[#B8860B] transition-colors py-1">Áreas de Práctica</a>
+        <a href="#consulta" class="nav-link text-sm font-semibold text-slate-700 hover:text-[#B8860B] transition-colors py-1">Consulta Jurídica</a>
+        <a href="#faqs" class="nav-link text-sm font-semibold text-slate-700 hover:text-[#B8860B] transition-colors py-1">Preguntas Frecuentes</a>
+        <a href="#ubicacion" class="nav-link text-sm font-semibold text-slate-700 hover:text-[#B8860B] transition-colors py-1">Contacto</a>
+      </nav>
+
+      <div class="flex items-center gap-3">
+        <a href="https://wa.me/50764556443?text=Hola%20Licdo.%20Jaime%20G%C3%B3mez,%20solicito%20una%20consulta%20legal%20confidencial." target="_blank" rel="noopener noreferrer" class="hidden sm:inline-flex items-center gap-2 bg-gradient-to-r from-[#D4AF37] via-[#E5C07B] to-[#C5A059] text-slate-950 font-bold text-xs md:text-sm px-4 py-2.5 rounded shadow hover:brightness-105 active:scale-95 transition-all">
+          <i class="fa-brands fa-whatsapp text-base"></i>
+          <span>Consulta por WhatsApp</span>
+        </a>
+        <button id="mobile-menu-btn" class="lg:hidden p-2 text-slate-700 hover:text-[#0A192F] border border-slate-300 bg-slate-50 rounded" aria-label="Abrir menú">
+          <i class="fa-solid fa-bars text-xl"></i>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Drawer Menu -->
+    <div id="mobile-menu" class="hidden lg:hidden bg-white border-b border-slate-200 px-6 py-4 shadow-xl">
+      <nav class="flex flex-col gap-2">
+        <a href="#inicio" class="mobile-nav-link text-slate-800 hover:text-[#B8860B] py-2 px-3 rounded-lg font-semibold transition-all">Inicio</a>
+        <a href="#sobre-el-abogado" class="mobile-nav-link text-slate-800 hover:text-[#B8860B] py-2 px-3 rounded-lg font-semibold transition-all">Sobre el Abogado</a>
+        <a href="#areas-de-practica" class="mobile-nav-link text-slate-800 hover:text-[#B8860B] py-2 px-3 rounded-lg font-semibold transition-all">Áreas de Práctica</a>
+        <a href="#consulta" class="mobile-nav-link text-slate-800 hover:text-[#B8860B] py-2 px-3 rounded-lg font-semibold transition-all">Consulta Jurídica</a>
+        <a href="#faqs" class="mobile-nav-link text-slate-800 hover:text-[#B8860B] py-2 px-3 rounded-lg font-semibold transition-all">Preguntas Frecuentes</a>
+        <a href="#ubicacion" class="mobile-nav-link text-slate-800 hover:text-[#B8860B] py-2 px-3 rounded-lg font-semibold transition-all">Ubicación & Contacto</a>
+        <a href="https://wa.me/50764556443" target="_blank" class="mt-2 text-center bg-[#D4AF37] text-slate-950 font-bold py-3 rounded text-sm shadow hover:brightness-105 transition-all">
+          <i class="fa-brands fa-whatsapp mr-1"></i> WhatsApp: +507 6455-6443
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO SECTION CINEMATOGRÁFICO CON VÍDEO COMPLETO -->
+  <section id="inicio" class="relative w-full h-[68vh] sm:h-[75vh] md:h-[80vh] lg:h-[82vh] max-h-[85vh] flex items-center overflow-hidden bg-slate-950">
+    <!-- Vídeo como fondo en capas -->
+    <video id="hero-bg-video" autoplay loop muted playsinline poster="videos/hero-poster.jpg" class="absolute inset-0 w-full h-full object-cover object-center pointer-events-none z-0">
+      <source src="videos/hero-abogado-optimized.mp4" type="video/mp4">
+      <source src="videos/hero-abogado.mp4" type="video/mp4">
+      <source src="https://drive.google.com/uc?export=download&id=1C5AHG1hT5b_riMdFF06rYw6M0vkYtUPj" type="video/mp4">
+    </video>
+
+    <!-- Capa oscura semitransparente cinematográfica de contraste -->
+    <div class="absolute inset-0 bg-gradient-to-r from-slate-950/85 via-slate-950/50 to-slate-950/20 z-10 pointer-events-none"></div>
+    <div class="absolute inset-0 bg-gradient-to-b from-slate-950/40 via-transparent to-slate-950/60 z-10 pointer-events-none"></div>
+
+    <!-- Composición Editorial Alineada a la Izquierda Sobre el Vídeo -->
+    <div class="relative z-20 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-12 flex flex-col justify-center items-start">
+      <div class="max-w-2xl lg:max-w-3xl text-left select-none">
+        <!-- Titular Principal Comercial -->
+        <h1 class="font-serif text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-semibold sm:font-bold tracking-tight text-[#FFF8E7] drop-shadow-[0_4px_24px_rgba(0,0,0,0.9)] leading-[1.12] sm:leading-[1.15]">
+          TUS DERECHOS MERECEN <br>
+          UNA <span class="text-[#E5C07B] drop-shadow-[0_2px_18px_rgba(212,175,55,0.4)]">DEFENSA FIRME.</span>
+        </h1>
+
+        <!-- Subtítulo Persuasivo y Profesional -->
+        <p class="mt-4 sm:mt-5 text-sm sm:text-base md:text-lg text-slate-200 font-normal leading-relaxed max-w-xl drop-shadow-[0_2px_12px_rgba(0,0,0,0.85)]">
+          Asesoría jurídica con compromiso, experiencia y responsabilidad.
+        </p>
+
+        <!-- Botón Discreto de WhatsApp -->
+        <div class="mt-6 sm:mt-8">
+          <a href="https://wa.me/50764556443?text=Hola%20Licdo.%20Jaime%20G%C3%B3mez,%20solicito%20una%20consulta%20legal%20confidencial." target="_blank" rel="noopener noreferrer" class="group inline-flex items-center gap-2.5 px-5 sm:px-6 py-3 rounded-md bg-slate-950/80 hover:bg-[#D4AF37] border border-[#D4AF37]/70 hover:border-[#D4AF37] text-white hover:text-slate-950 text-xs sm:text-sm font-semibold tracking-wider uppercase transition-all duration-300 backdrop-blur-md shadow-lg shadow-black/40 hover:shadow-[#D4AF37]/25 active:scale-98" aria-label="Contactar por WhatsApp al Licdo. Jaime Gómez Araúz">
+            <i class="fa-brands fa-whatsapp text-base text-emerald-400 group-hover:text-slate-950 transition-colors"></i>
+            <span>Contactar por WhatsApp</span>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Indicador de Scroll-Down Animado Sutil -->
+    <a href="#sobre-el-abogado" class="absolute bottom-3 sm:bottom-5 left-1/2 -translate-x-1/2 z-20 flex flex-col items-center gap-1.5 text-slate-300/80 hover:text-[#E5C07B] transition-colors duration-300 group cursor-pointer focus:outline-none" aria-label="Desplazarse hacia abajo para explorar el resto de la página">
+      <span class="text-[10px] sm:text-[11px] tracking-[0.25em] uppercase font-medium text-slate-300/70 group-hover:text-[#E5C07B] transition-colors drop-shadow-md">Explorar</span>
+      <div class="w-5 h-8 sm:w-5.5 sm:h-9 rounded-full border border-[#D4AF37]/50 group-hover:border-[#D4AF37] flex items-start justify-center p-1 transition-colors backdrop-blur-[2px] bg-slate-950/30 shadow-md">
+        <span class="w-1 h-2 rounded-full bg-[#E5C07B] animate-bounce"></span>
+      </div>
+      <i class="fa-solid fa-chevron-down text-[10px] text-[#E5C07B]/85 group-hover:text-[#E5C07B] animate-pulse -mt-0.5 transition-colors"></i>
+    </a>
+
+    <!-- Botón discreto de desbloqueo si el navegador bloquea autoplay en modo bajo consumo -->
+    <button id="hero-play-unlock-btn" class="hidden absolute bottom-5 right-5 z-30 items-center gap-2 px-3.5 py-1.5 rounded-full bg-slate-950/80 border border-[#D4AF37]/60 text-[#E5C07B] text-xs backdrop-blur-md hover:bg-slate-900 transition-all shadow-lg" aria-label="Reproducir video">
+      <i class="fa-solid fa-play text-xs"></i>
+      <span>Iniciar Video</span>
+    </button>
+  </section>
+
+  <!-- Sobre el Abogado -->
+  <section id="sobre-el-abogado" class="py-20 md:py-28 bg-white relative border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <div class="inline-flex items-center gap-2 text-xs font-bold text-[#A37016] uppercase tracking-widest mb-3">
+          <i class="fa-solid fa-scale-balanced"></i> Perfil Profesional del Titular
+        </div>
+        <h2 class="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-[#0A192F] tracking-tight">
+          Sobre el <span className="gold-gradient-text">Licdo. Jaime Gómez Araúz</span>
+        </h2>
+        <p class="mt-4 text-slate-600 text-base sm:text-lg">
+          Compromiso ético inquebrantable, experiencia forense real y lealtad irrestricta a la causa de cada patrocinado.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        <div class="lg:col-span-5 flex justify-center scroll-reveal" data-reveal-delay="0">
+          <div class="relative group w-full max-w-md">
+            <div class="absolute -inset-2.5 rounded-2xl bg-gradient-to-tr from-[#D4AF37]/50 via-[#E5C07B]/30 to-[#997825]/40 opacity-80 blur-sm group-hover:opacity-100 transition-opacity"></div>
+            <div class="relative rounded-xl overflow-hidden border-2 border-[#D4AF37] shadow-2xl bg-white p-2">
+              <div class="relative aspect-[4/5] w-full rounded-lg overflow-hidden border border-[#D4AF37]/30 bg-slate-900">
+                <img src="https://lh3.googleusercontent.com/d/1C48Kr9_ZOiRRACrar1M7Jgn-Srzpcz9i" alt="Licdo. Jaime Gómez Araúz" class="w-full h-full object-cover object-top filter contrast-[1.03]" referrerpolicy="no-referrer">
+                <div class="absolute bottom-3 inset-x-3 bg-[#0A192F]/95 backdrop-blur-md border border-[#D4AF37]/60 rounded-lg p-3 text-center shadow-lg">
+                  <p class="text-white font-serif font-bold text-base leading-tight">Licdo. Jaime Gómez Araúz</p>
+                  <p class="text-[#E5C07B] text-xs font-semibold tracking-wider mt-0.5">Idoneidad Profesional CSJ No. 22518</p>
+                  <p class="text-slate-300 text-[11px] mt-0.5">Colegio Nacional de Abogados de Panamá</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="lg:col-span-7 flex flex-col gap-6 scroll-reveal" data-reveal-delay="150">
+          <div>
+            <span class="text-xs sm:text-sm font-bold text-[#A37016] uppercase tracking-wider">Trayectoria Jurídica en Chiriquí</span>
+            <h3 class="font-serif text-2xl sm:text-3xl font-bold text-[#0A192F] mt-1">Estrategia Procesal, Firmeza y Trato Personalizado</h3>
+          </div>
+
+          <div class="space-y-4 text-slate-700 leading-relaxed text-sm sm:text-base">
+            <p>
+              Con <strong class="text-[#0A192F] font-bold">más de 10 años en el ejercicio ininterrumpido del derecho</strong> en la provincia de Chiriquí y los distintos distritos judiciales de Panamá, el <strong class="text-[#A37016] font-bold">Licdo. Jaime Gómez Araúz</strong> ha consolidado un despacho distinguido por su alta solvencia técnica, confidencialidad estricta y trato cercano.
+            </p>
+            <p>
+              Su trayectoria destaca con especial solidez en tres áreas fundamentales:
+              la <strong class="text-[#0A192F]">Defensa Familiar Integral</strong> (procesos de divorcio, alimentos y guarda y crianza),
+              la <strong class="text-[#0A192F]">Defensa Pública General</strong> (amparos constitucionales y tutela ciudadana)
+              y la <strong class="text-[#A37016] font-semibold">Defensa Penal Estratégica</strong> bajo el Sistema Penal Acusatorio (SPA), asistiendo con presteza en audiencias de garantías y juicios orales.
+            </p>
+            <p>
+              Asimismo, destaca por una <strong class="text-[#0A192F] font-bold">sólida gestión e influencias institucionales legítimas</strong> ante tribunales, juzgados agrarios, fiscalías y dependencias gubernamentales, lo cual le permite agilizar trámites y asegurar el avance efectivo y sin dilaciones de cada causa encomendada.
+            </p>
+          </div>
+
+          <div class="grid grid-cols-1 sm:grid-cols-2 gap-3.5 pt-2">
+            <div class="p-3.5 rounded-lg bg-slate-50 border border-slate-200">
+              <p class="text-xs sm:text-sm font-bold text-[#0A192F] flex items-center gap-1.5"><i class="fa-solid fa-shield-halved text-[#B8860B]"></i> Defensa Penal en SPA</p>
+              <p class="text-xs text-slate-600 mt-0.5">Control de aprehensión e imputación 24/7 en Chiriquí.</p>
+            </div>
+            <div class="p-3.5 rounded-lg bg-slate-50 border border-slate-200">
+              <p class="text-xs sm:text-sm font-bold text-[#0A192F] flex items-center gap-1.5"><i class="fa-solid fa-users text-[#B8860B]"></i> Defensa Familiar Integral</p>
+              <p class="text-xs text-slate-600 mt-0.5">Protección del menor y partición pacífica de patrimonios.</p>
+            </div>
+            <div class="p-3.5 rounded-lg bg-slate-50 border border-slate-200">
+              <p class="text-xs sm:text-sm font-bold text-[#0A192F] flex items-center gap-1.5"><i class="fa-solid fa-landmark text-[#B8860B]"></i> Gestión Institucional Eficaz</p>
+              <p class="text-xs text-slate-600 mt-0.5">Impulso procesal legítimo y destrabe de expedientes.</p>
+            </div>
+            <div class="p-3.5 rounded-lg bg-slate-50 border border-slate-200">
+              <p class="text-xs sm:text-sm font-bold text-[#0A192F] flex items-center gap-1.5"><i class="fa-solid fa-location-dot text-[#B8860B]"></i> Sede en David, Chiriquí</p>
+              <p class="text-xs text-slate-600 mt-0.5">Villa Isabela, Oficina B-9 para atención personalizada.</p>
+            </div>
+          </div>
+
+          <div class="pt-3 border-t border-slate-200 flex items-center justify-between flex-wrap gap-4">
+            <div class="text-xs text-slate-700">
+              <i class="fa-solid fa-building text-[#B8860B] mr-1.5"></i>
+              <strong>Oficina Física:</strong> Villa Isabela, David, Chiriquí, Oficina B-9.
+            </div>
+            <a href="#consulta" class="bg-[#D4AF37] hover:bg-[#E5C07B] text-slate-950 font-bold px-5 py-2.5 rounded text-sm transition-all shadow">
+              Solicitar Consulta Directa
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 13 Áreas de Práctica -->
+  <section id="areas-de-practica" class="py-20 md:py-28 bg-slate-50 relative border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <div class="inline-flex items-center gap-2 text-xs font-bold text-[#A37016] uppercase tracking-widest mb-3">
+          <i class="fa-solid fa-scale-balanced"></i> Catálogo Jurídico Integral
+        </div>
+        <h2 class="font-serif text-3xl sm:text-4xl md:text-5xl font-bold text-[#0A192F] tracking-tight">
+          13 Áreas de <span class="gold-gradient-text">Práctica Especializada</span>
+        </h2>
+        <p class="mt-4 text-slate-600 text-sm sm:text-base leading-relaxed">
+          Cobertura legal exhaustiva para la provincia de Chiriquí y Panamá. Presione <strong class="text-[#0A192F]">"Ver Detalles"</strong> en cualquiera de las materias para consultar los sub-servicios y cotizar directamente por WhatsApp.
+        </p>
+      </div>
+
+      <div id="practice-cards-grid" class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 sm:gap-7">
+      </div>
+    </div>
+  </section>
+
+  <!-- Solicitud Oficial de Consulta Jurídica -->
+  <section id="consulta" class="py-20 md:py-28 bg-white relative border-b border-slate-200">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-12">
+        <div class="inline-flex items-center gap-2 text-xs font-bold text-[#A37016] uppercase tracking-widest mb-3">
+          <i class="fa-solid fa-lock"></i> Atención Inmediata & Confidencial
+        </div>
+        <h2 class="font-serif text-3xl sm:text-4xl font-bold text-[#0A192F] tracking-tight">
+          Solicitud Oficial de <span class="gold-gradient-text">Consulta Jurídica</span>
+        </h2>
+        <p class="mt-3 text-slate-600 text-sm sm:text-base">
+          Conéctese directamente al WhatsApp oficial del Licdo. Jaime Gómez Araúz bajo estricta reserva profesional.
+        </p>
+      </div>
+
+      <div class="relative rounded-2xl p-6 sm:p-10 bg-white border-2 border-[#D4AF37]/50 shadow-[0_20px_50px_rgba(15,23,42,0.08)]">
+        <form id="whatsapp-inquiry-form" class="space-y-5">
+          <div>
+            <label class="block text-xs font-bold text-[#0A192F] mb-1.5 uppercase tracking-wide">
+              Nombre Completo <span class="text-[#B8860B]">*</span>
+            </label>
+            <input type="text" id="form-fullname" required placeholder="Ej: Licda. María González / Juan Pérez" class="w-full bg-slate-50 text-sm text-slate-900 placeholder-slate-400 px-4 py-3 rounded-lg border border-slate-300 focus:border-[#D4AF37] focus:bg-white focus:outline-none transition-all shadow-sm">
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-[#0A192F] mb-1.5 uppercase tracking-wide">
+              Teléfono / WhatsApp <span class="text-[#B8860B]">*</span>
+            </label>
+            <input type="tel" id="form-phone" required placeholder="Ej: +507 6455-6443" class="w-full bg-slate-50 text-sm text-slate-900 placeholder-slate-400 px-4 py-3 rounded-lg border border-slate-300 focus:border-[#D4AF37] focus:bg-white focus:outline-none transition-all shadow-sm">
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-[#0A192F] mb-1.5 uppercase tracking-wide">
+              Área Legal de Interés <span class="text-[#B8860B]">*</span>
+            </label>
+            <select id="form-service" class="w-full bg-slate-50 text-sm text-slate-900 px-4 py-3 rounded-lg border border-slate-300 focus:border-[#D4AF37] focus:bg-white focus:outline-none transition-all cursor-pointer shadow-sm">
+            </select>
+          </div>
+
+          <div>
+            <label class="block text-xs font-bold text-[#0A192F] mb-1.5 uppercase tracking-wide">
+              Descripción Breve del Caso <span class="text-[#B8860B]">*</span>
+            </label>
+            <textarea id="form-message" required rows="3" placeholder="Describa brevemente su requerimiento legal o audiencia..." class="w-full bg-slate-50 text-sm text-slate-900 placeholder-slate-400 px-4 py-3 rounded-lg border border-slate-300 focus:border-[#D4AF37] focus:bg-white focus:outline-none transition-all shadow-sm resize-none"></textarea>
+          </div>
+
+          <div class="pt-2">
+            <label class="flex items-start gap-3 cursor-pointer p-3 rounded-lg bg-slate-50 border border-slate-200 hover:border-[#D4AF37] transition-colors">
+              <input type="checkbox" id="form-ley81" required class="mt-0.5 w-4 h-4 rounded text-[#B8860B] border-slate-300 cursor-pointer">
+              <span class="text-xs text-slate-700 leading-snug">
+                Acepto el tratamiento de mis datos personales conforme a la <strong class="text-[#0A192F] underline">Ley 81 de Protección de Datos Personales de Panamá</strong> y la política de estricta reserva profesional del despacho.
+              </span>
+            </label>
+          </div>
+
+          <div id="form-error" class="hidden p-3 rounded bg-red-50 border border-red-200 text-red-700 text-xs"></div>
+
+          <button type="submit" class="w-full mt-4 bg-gradient-to-r from-[#D4AF37] via-[#E5C07B] to-[#C5A059] text-slate-950 font-bold text-base py-3.5 px-6 rounded-lg shadow-lg hover:shadow-xl hover:brightness-105 active:scale-98 transition-all flex items-center justify-center gap-2">
+            <i class="fa-brands fa-whatsapp text-xl"></i>
+            <span>Enviar Consulta Directa a WhatsApp</span>
+          </button>
+
+          <p class="text-center text-[11px] text-slate-500 mt-2">
+            <i class="fa-solid fa-lock text-[#B8860B] mr-1"></i> Secreto profesional garantizado · Respuesta directa por el Licdo. Jaime Gómez
+          </p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAQs -->
+  <section id="faqs" class="py-20 md:py-28 bg-slate-50 relative border-b border-slate-200">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-2xl mx-auto mb-16">
+        <div class="inline-flex items-center gap-2 text-xs font-bold text-[#A37016] uppercase tracking-widest mb-3">
+          <i class="fa-solid fa-circle-question"></i> Orientación Preventiva
+        </div>
+        <h2 class="font-serif text-3xl sm:text-4xl font-bold text-[#0A192F] tracking-tight">
+          Preguntas <span class="gold-gradient-text">Frecuentes</span>
+        </h2>
+        <p class="mt-3 text-slate-600 text-sm sm:text-base">
+          Respuestas jurídicas claras a dudas habituales en David y la provincia de Chiriquí.
+        </p>
+      </div>
+
+      <div id="faqs-container" class="space-y-3.5">
+      </div>
+    </div>
+  </section>
+
+  <!-- Ubicación Física & Contacto -->
+  <section id="ubicacion" class="py-20 md:py-28 bg-white border-b border-slate-200">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div class="text-center max-w-3xl mx-auto mb-16">
+        <div class="inline-flex items-center gap-2 text-xs font-bold text-[#A37016] uppercase tracking-widest mb-3">
+          <i class="fa-solid fa-location-dot"></i> Sede Física Oficial (NAP)
+        </div>
+        <h2 class="font-serif text-3xl sm:text-4xl font-bold text-[#0A192F] tracking-tight">
+          Ubicación en <span class="gold-gradient-text">David, Chiriquí</span>
+        </h2>
+        <p class="mt-3 text-slate-600 text-sm sm:text-base">
+          Atención en Villa Isabela, Oficina B-9. Canales directos de comunicación.
+        </p>
+      </div>
+
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-stretch">
+        <div class="lg:col-span-5 space-y-4 flex flex-col justify-between">
+          <div class="p-6 rounded-xl bg-white border border-slate-200 shadow-sm">
+            <h4 class="text-xs font-bold text-[#A37016] uppercase tracking-wider">Dirección Física</h4>
+            <p class="text-[#0A192F] font-serif text-lg font-bold mt-1">Villa Isabela, David, Chiriquí</p>
+            <p class="text-sm text-slate-600">Oficina B-9, República de Panamá.</p>
+            <a href="https://maps.google.com/?q=Villa+Isabela+David+Chiriqui+Panama" target="_blank" rel="noopener noreferrer" class="inline-flex items-center gap-1.5 text-xs font-bold text-[#B8860B] hover:underline mt-3">
+              <i class="fa-solid fa-diamond-turn-right"></i> Abrir en Google Maps
+            </a>
+          </div>
+
+          <div class="p-6 rounded-xl bg-white border border-slate-200 shadow-sm">
+            <h4 class="text-xs font-bold text-emerald-700 uppercase tracking-wider">Teléfono & WhatsApp</h4>
+            <p class="text-[#0A192F] font-mono text-lg font-bold mt-1">+507 6455-6443</p>
+            <p class="text-xs text-slate-500">Atención telefónica directa y citas previas</p>
+            <div class="mt-3 flex gap-2">
+              <a href="https://wa.me/50764556443" target="_blank" class="bg-emerald-600 hover:bg-emerald-500 text-white text-xs font-bold px-3 py-1.5 rounded shadow-sm">
+                <i class="fa-brands fa-whatsapp mr-1"></i> WhatsApp
+              </a>
+              <a href="tel:+50764556443" class="border border-slate-300 text-slate-700 text-xs px-3 py-1.5 rounded">
+                Llamar
+              </a>
+            </div>
+          </div>
+
+          <div class="p-6 rounded-xl bg-white border border-slate-200 shadow-sm">
+            <h4 class="text-xs font-bold text-blue-700 uppercase tracking-wider">Correo Electrónico Cifrado</h4>
+            <p class="text-[#0A192F] font-mono text-sm sm:text-base font-bold mt-1">licd.jaimegomez@proton.me</p>
+            <p class="text-xs text-slate-500">Recepción segura de autos, edictos y pruebas</p>
+          </div>
+        </div>
+
+        <div class="lg:col-span-7">
+          <div class="rounded-2xl overflow-hidden border-2 border-slate-200 shadow-md h-full min-h-[380px] bg-slate-100">
+            <iframe title="Mapa David Chiriqui" src="https://maps.google.com/maps?q=David,+Chiriqui,+Panama&t=&z=14&ie=UTF8&iwloc=&output=embed" class="w-full h-full min-h-[400px] border-0 filter contrast-[1.03]" allowfullscreen loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Legal -->
+  <footer class="bg-[#050B14] border-t-2 border-[#D4AF37]/30 text-slate-300 text-sm">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10">
+        <div class="lg:col-span-4 space-y-4">
+          <div class="flex items-center gap-3.5">
+            <div class="w-14 h-14 rounded-full border border-[#D4AF37]/50 bg-slate-950 p-1 flex-shrink-0 overflow-hidden">
+              <img src="images/logo.jpg" alt="Logo Oficial" class="w-full h-full object-contain" referrerpolicy="no-referrer">
+            </div>
+            <div>
+              <span class="font-cinzel text-lg font-bold text-white block">Licdo. Jaime Gómez Araúz</span>
+              <span class="text-xs text-[#D4AF37] font-semibold tracking-wider uppercase block">Abogado · Idoneidad No. 22518</span>
+            </div>
+          </div>
+          <p class="text-xs text-slate-400 leading-relaxed">
+            Más de 10 años de trayectoria ininterrumpida en David, Chiriquí. Defensa Familiar, Defensa Pública y Defensa Penal Estratégica.
+          </p>
+        </div>
+
+        <div class="lg:col-span-4 space-y-3">
+          <h4 class="font-serif text-base font-bold text-white">Áreas de Práctica</h4>
+          <ul class="text-xs text-slate-400 space-y-2">
+            <li><a href="#areas-de-practica" class="hover:text-[#E5C07B]">› 1. Derecho Penal y Administrativo (SPA)</a></li>
+            <li><a href="#areas-de-practica" class="hover:text-[#E5C07B]">› 2. Civil, Familia y Sucesiones</a></li>
+            <li><a href="#areas-de-practica" class="hover:text-[#E5C07B]">› 3. Derecho Laboral (MITRADEL)</a></li>
+            <li><a href="#areas-de-practica" class="hover:text-[#E5C07B]">› 7. Derecho Agrario & ANATI Chiriquí</a></li>
+            <li><a href="#areas-de-practica" class="text-[#D4AF37] hover:underline">› Ver las 13 áreas especializadas...</a></li>
+          </ul>
+        </div>
+
+        <div class="lg:col-span-4 space-y-3 text-xs">
+          <h4 class="font-serif text-base font-bold text-white">Datos Oficiales</h4>
+          <p><strong class="text-white">Dirección:</strong> Villa Isabela, David, Chiriquí, Panamá. Oficina B-9.</p>
+          <p><strong class="text-white">Teléfono / WhatsApp:</strong> +507 6455-6443</p>
+          <p><strong class="text-white">Correo Oficial:</strong> licd.jaimegomez@proton.me</p>
+          <div class="pt-2">
+            <a href="https://wa.me/50764556443" target="_blank" class="inline-flex items-center gap-1.5 bg-[#D4AF37] text-slate-950 font-bold px-3.5 py-2 rounded">
+              <i class="fa-brands fa-whatsapp text-sm"></i> WhatsApp Directo
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-[#03070D] border-t border-slate-800 py-6 px-4">
+      <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-slate-400 text-center md:text-left">
+        <div>
+          <p>© <span id="current-year-2"></span> Licdo. Jaime Gómez Araúz. Todos los derechos reservados.</p>
+          <p class="text-[11px] text-slate-400">Idoneidad No. 22518 · República de Panamá.</p>
+        </div>
+        <div class="flex gap-4">
+          <button id="open-privacy-modal-btn" class="hover:text-[#E5C07B] underline">Política de Privacidad (Ley 81)</button>
+          <button id="open-terms-modal-btn" class="hover:text-[#E5C07B] underline">Términos de Uso</button>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal Detallada -->
+  <div id="service-modal" class="hidden fixed inset-0 z-50 bg-slate-900/60 backdrop-blur-sm flex items-center justify-center p-3 sm:p-6 overflow-y-auto">
+    <div class="relative w-full max-w-5xl bg-white border-2 border-[#D4AF37] rounded-2xl shadow-2xl overflow-hidden my-6 max-h-[92vh] flex flex-col">
+      <div class="sticky top-0 z-20 bg-slate-50 px-6 py-4 border-b border-slate-200 flex items-center justify-between">
+        <div class="flex items-center gap-3">
+          <span id="modal-service-number" class="w-8 h-8 rounded-full bg-[#0A192F] text-[#E5C07B] font-bold text-xs flex items-center justify-center">01</span>
+          <div>
+            <span id="modal-service-tag" class="text-[11px] font-bold text-[#A37016] uppercase tracking-wider block">Materia Legal</span>
+            <span id="modal-service-title-bar" class="text-base font-serif font-bold text-[#0A192F] truncate max-w-md block">Título del Servicio</span>
+          </div>
+        </div>
+        <button id="close-modal-btn" class="p-2 text-slate-500 hover:text-slate-900 rounded-full bg-slate-200">
+          <i class="fa-solid fa-xmark text-lg"></i>
+        </button>
+      </div>
+
+      <div class="overflow-y-auto p-6 sm:p-8 space-y-8">
+        <div class="relative rounded-xl overflow-hidden min-h-[220px] flex items-end p-6 border border-slate-200">
+          <img id="modal-service-img" src="" alt="" class="absolute inset-0 w-full h-full object-cover filter brightness-[0.55] contrast-[1.05]" referrerpolicy="no-referrer">
+          <div class="relative z-10">
+            <h2 id="modal-service-title" class="font-serif text-2xl sm:text-3xl font-extrabold text-white">Título de la Materia</h2>
+            <p id="modal-service-short" class="mt-2 text-sm text-slate-100 max-w-2xl"></p>
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+          <div class="lg:col-span-6 space-y-5">
+            <div>
+              <h3 class="font-serif text-lg font-bold text-[#0A192F] flex items-center gap-2 mb-2">
+                <i class="fa-solid fa-scale-balanced text-[#B8860B]"></i> Alcance y Representación
+              </h3>
+              <p id="modal-service-desc" class="text-sm text-slate-700 leading-relaxed"></p>
+            </div>
+
+            <div class="p-5 rounded-xl bg-slate-50 border border-slate-200">
+              <h4 class="text-xs font-bold text-[#A37016] uppercase tracking-wider mb-3">Sub-Servicios Incluidos</h4>
+              <ul id="modal-service-sublist" class="space-y-2.5 text-xs sm:text-sm text-slate-800">
+              </ul>
+            </div>
+          </div>
+
+          <div class="lg:col-span-6">
+            <div class="p-6 rounded-xl bg-white border-2 border-[#D4AF37]/50 shadow-xl">
+              <h3 class="font-serif font-bold text-[#0A192F] text-lg mb-1 flex items-center gap-2">
+                <i class="fa-brands fa-whatsapp text-emerald-600"></i> Cotizar Esta Área por WhatsApp
+              </h3>
+              <p class="text-xs text-slate-500 mb-4">El Licdo. Jaime Gómez Araúz recibirá sus datos de forma confidencial.</p>
+
+              <form id="modal-whatsapp-form" class="space-y-4">
+                <div>
+                  <label class="block text-xs font-bold text-[#0A192F] mb-1">Nombre Completo *</label>
+                  <input type="text" id="modal-form-fullname" required placeholder="Su nombre" class="w-full bg-slate-50 text-xs px-3.5 py-2.5 rounded border border-slate-300 text-slate-900 focus:border-[#D4AF37] focus:outline-none">
+                </div>
+                <div>
+                  <label class="block text-xs font-bold text-[#0A192F] mb-1">Teléfono / WhatsApp *</label>
+                  <input type="tel" id="modal-form-phone" required placeholder="+507 6455-6443" class="w-full bg-slate-50 text-xs px-3.5 py-2.5 rounded border border-slate-300 text-slate-900 focus:border-[#D4AF37] focus:outline-none">
+                </div>
+                <div>
+                  <label class="block text-xs font-bold text-[#0A192F] mb-1">Materia Legal</label>
+                  <input type="text" id="modal-form-service-fixed" readonly class="w-full bg-slate-100 text-xs px-3.5 py-2.5 rounded border border-slate-200 text-[#A37016] font-bold cursor-not-allowed">
+                </div>
+                <div>
+                  <label class="block text-xs font-bold text-[#0A192F] mb-1">Detalles de su caso *</label>
+                  <textarea id="modal-form-message" required rows="3" placeholder="Indique brevemente lo que necesita..." class="w-full bg-slate-50 text-xs px-3.5 py-2.5 rounded border border-slate-300 text-slate-900 focus:border-[#D4AF37] focus:outline-none resize-none"></textarea>
+                </div>
+                <div>
+                  <label class="flex items-start gap-2.5 cursor-pointer text-[11px] text-slate-700">
+                    <input type="checkbox" id="modal-form-ley81" required class="mt-0.5 rounded text-[#B8860B] border-slate-300">
+                    <span>Acepto el tratamiento de datos conforme a la <strong>Ley 81 de Protección de Datos Personales de Panamá</strong>.</span>
+                  </label>
+                </div>
+                <button type="submit" class="w-full bg-[#D4AF37] hover:bg-[#E5C07B] text-slate-950 font-bold py-3 rounded text-xs transition-all flex items-center justify-center gap-2 shadow">
+                  <i class="fa-brands fa-whatsapp text-base"></i> Enviar a WhatsApp del Abogado
+                </button>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Privacy Modal -->
+  <div id="privacy-modal" class="hidden fixed inset-0 z-50 bg-slate-900/60 backdrop-blur-sm flex items-center justify-center p-4 overflow-y-auto">
+    <div class="relative w-full max-w-2xl bg-white border-2 border-[#D4AF37] rounded-2xl p-6 sm:p-8 max-h-[85vh] overflow-y-auto shadow-2xl">
+      <div class="flex justify-between items-center pb-3 border-b border-slate-200 mb-4">
+        <h3 class="font-serif font-bold text-xl text-[#0A192F]">Política de Privacidad (Ley 81 de Panamá)</h3>
+        <button id="close-privacy-btn" class="text-slate-400 hover:text-slate-800"><i class="fa-solid fa-xmark text-lg"></i></button>
+      </div>
+      <div class="space-y-3 text-xs text-slate-700 leading-relaxed">
+        <p><strong class="text-[#0A192F]">Responsable:</strong> Licdo. Jaime Gómez Araúz (Idoneidad No. 22518), Villa Isabela, David, Chiriquí, Oficina B-9. Correo: licd.jaimegomez@proton.me.</p>
+        <p><strong class="text-[#0A192F]">Finalidad:</strong> Los datos se recaban con el consentimiento previo para atender consultas y prestar servicios legales.</p>
+        <p><strong class="text-[#0A192F]">Secreto Profesional:</strong> Amparado por el Código de Ética Judicial y leyes procesales panameñas. No se comparten datos con terceros.</p>
+        <p><strong class="text-[#0A192F]">Derechos ARCO:</strong> Puede ejercer derechos de acceso, rectificación y cancelación contactando a licd.jaimegomez@proton.me.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Terms Modal -->
+  <div id="terms-modal" class="hidden fixed inset-0 z-50 bg-slate-900/60 backdrop-blur-sm flex items-center justify-center p-4 overflow-y-auto">
+    <div class="relative w-full max-w-2xl bg-white border-2 border-[#D4AF37] rounded-2xl p-6 sm:p-8 max-h-[85vh] overflow-y-auto shadow-2xl">
+      <div class="flex justify-between items-center pb-3 border-b border-slate-200 mb-4">
+        <h3 class="font-serif font-bold text-xl text-[#0A192F]">Términos de Uso y Contratación</h3>
+        <button id="close-terms-btn" class="text-slate-400 hover:text-slate-800"><i class="fa-solid fa-xmark text-lg"></i></button>
+      </div>
+      <div class="space-y-3 text-xs text-slate-700 leading-relaxed">
+        <p><strong class="text-[#0A192F]">Carácter Orientativo:</strong> La navegación no perfecciona automáticamente la relación formal cliente-abogado.</p>
+        <p><strong class="text-[#0A192F]">Formalización:</strong> Toda representación formal se perfecciona mediante Contrato de Servicios Profesionales y Poder notarial.</p>
+        <p><strong class="text-[#0A192F]">Jurisdicción:</strong> Distrito Judicial de Chiriquí, República de Panamá.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Cookie Banner -->
+  <div id="cookie-banner" class="hidden fixed bottom-0 inset-x-0 z-50 p-4 bg-white/95 border-t-2 border-[#D4AF37] shadow-2xl backdrop-blur-md">
+    <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-700">
+      <p>
+        Utilizamos cookies técnicas conforme a la <strong class="text-[#0A192F]">Ley 81 de Protección de Datos de Panamá</strong> para asegurar su consulta confidencial.
+      </p>
+      <div class="flex gap-2">
+        <button id="accept-cookies-btn" class="bg-[#D4AF37] text-slate-950 font-bold px-4 py-2 rounded hover:bg-[#E5C07B] transition-all shadow-sm">Aceptar Cookies</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating WhatsApp CTA -->
+  <aside aria-label="Contacto rápido" class="fixed bottom-6 right-6 z-40">
+    <a href="https://wa.me/50764556443?text=Hola%20Licdo.%20Jaime%20G%C3%B3mez,%20solicito%20una%20consulta%20legal%20confidencial." target="_blank" rel="noopener noreferrer" class="flex items-center justify-center w-14 h-14 rounded-full bg-emerald-500 text-white shadow-2xl hover:bg-emerald-400 hover:scale-110 active:scale-95 transition-all" aria-label="WhatsApp directo al Licdo. Jaime Gómez">
+      <i class="fa-brands fa-whatsapp text-3xl"></i>
+    </a>
+  </aside>
+
+  <script>
+    const PRACTICE_AREAS_DATA = [
+      {
+        number: 1,
+        title: "Derecho Penal y Administrativo",
+        shortDesc: "Defensa técnica en el Sistema Penal Acusatorio (SPA) y procedimientos sancionatorios gubernativos.",
+        fullDesc: "Representación integral en todas las etapas del proceso penal panameño bajo las normas del Código Procesal Penal. Asistencia inmediata desde la aprehensión policial, audiencias de control de garantías ante los Tribunales de Chiriquí, formulación de acusación, juicio oral y fase de cumplimiento. Asimismo, ejercemos una sólida defensa frente a procesos disciplinarios y sancionatorios de entidades gubernamentales.",
+        image: "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?auto=format&fit=crop&w=800&q=80",
+        tag: "Defensa Penal & SPA",
+        subservices: [
+          "Asistencia inmediata en audiencias de control de aprehensión, imputación y medidas cautelares.",
+          "Defensa técnica rigurosa en juicio oral ante el Tribunal de Juicio de Chiriquí.",
+          "Negociación estratégica de métodos alternos de solución de conflictos y acuerdos de pena favorables.",
+          "Interposición de recursos extraordinarios: Anulación, Casación Penal y Hábeas Corpus.",
+          "Defensa en procedimientos sancionatorios administrativos y recursos en vía gubernativa.",
+          "Representación de víctimas del delito con constitución de querella y acción civil resarcitoria."
+        ]
+      },
+      {
+        number: 2,
+        title: "Civil, Familia y Sucesiones",
+        shortDesc: "Solución jurídica en divorcios, pensiones alimenticias, custodias y partición de herencias.",
+        fullDesc: "Protección integral del patrimonio familiar y de los derechos fundamentales de cónyuges, hijos y herederos. Guiamos a nuestros clientes en momentos cruciales con tacto, firmeza y absoluta reserva profesional, garantizando acuerdos sostenibles o litigando con contundencia en los juzgados de familia y civiles de la provincia de Chiriquí.",
+        image: "https://images.unsplash.com/photo-1575517111478-7f6afd0973db?auto=format&fit=crop&w=800&q=80",
+        tag: "Familia & Sucesiones",
+        subservices: [
+          "Procesos de divorcio por mutuo consentimiento y por causales contenciosas.",
+          "Fijación, aumento, rebaja o exoneración de pensiones alimenticias de menores y mayores.",
+          "Régimen de guarda, crianza, custodia compartida y reglamentación de visitas.",
+          "Juicios de sucesión testada e intestada con inventario y adjudicación de bienes.",
+          "Disolución y liquidación de la sociedad conyugal de bienes.",
+          "Procesos ordinarios civiles, prescripción adquisitiva de dominio y cobros ejecutivos."
+        ]
+      },
+      {
+        number: 3,
+        title: "Derecho Laboral",
+        shortDesc: "Asesoría estratégica patronal y defensa técnica de trabajadores conforme al Código de Trabajo de Panamá.",
+        fullDesc: "Equilibramos la relación laboral garantizando el estricto apego a las leyes de la República de Panamá. Representamos tanto a empresas en la estructuración de contrataciones blindadas y auditorías de cumplimiento, como a trabajadores en la restitución de sus derechos conculcados, despidos injustificados y reclamo de prestaciones adeudadas.",
+        image: "https://images.unsplash.com/photo-1521791136064-7986c2920216?auto=format&fit=crop&w=800&q=80",
+        tag: "Litigio & Asesoría Laboral",
+        subservices: [
+          "Demandas por despido injustificado, salarios caídos y prima de antigüedad.",
+          "Cálculo y auditoría pericial de liquidaciones, vacaciones, décimo tercer mes y horas extras.",
+          "Defensa en casos de fueros especiales: fuero maternal, fuero sindical y fuero de discapacidad.",
+          "Conciliaciones individuales ante las Direcciones Regionales de MITRADEL en Chiriquí.",
+          "Redacción y homologación de reglamentos internos de trabajo y contratos individuales.",
+          "Asesoría preventiva para empleadores en prevención de contingencias y demandas colectivas."
+        ]
+      },
+      {
+        number: 4,
+        title: "Derecho Migratorio",
+        shortDesc: "Radicación legal, visas de residencia y permisos de trabajo para profesionales e inversionistas.",
+        fullDesc: "Acompañamiento integral ante el Servicio Nacional de Migración y el Ministerio de Trabajo (MITRADEL). Diseñamos la ruta migratoria más eficiente y segura para extranjeros que buscan invertir, trabajar o jubilarse pacíficamente en la República de Panamá, especialmente en David, Boquete y Tierras Altas.",
+        image: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?auto=format&fit=crop&w=800&q=80",
+        tag: "Residencias & Visas",
+        subservices: [
+          "Permiso de Residente Permanente por Países Amigos (Friendly Nations Visa).",
+          "Visa de Inversionista Calificado y Solvencia Económica Propia.",
+          "Residencia de Jubilado o Pensionado (Pensionado Visa con amplios beneficios fiscales).",
+          "Permisos de trabajo ante MITRADEL (porcentajes de extranjeros, técnico especializado, etc.).",
+          "Reagrupación familiar de cónyuges, hijos y dependientes.",
+          "Cartas de naturaleza y procesos de naturalización para obtención de cédula panameña."
+        ]
+      },
+      {
+        number: 5,
+        title: "Derecho de Propiedad Intelectual",
+        shortDesc: "Blindaje legal de marcas comerciales, patentes, derechos de autor y secretos industriales.",
+        fullDesc: "Su identidad de marca y sus creaciones son activos comerciales de incalculable valor. Gestionamos el registro y defensa activa de marcas, lemas, nombres comerciales y patentes ante la Dirección General del Registro de la Propiedad Industrial (DIGERPI) del Ministerio de Comercio e Industrias (MICI), protegiéndole frente a plagios e infracciones.",
+        image: "https://images.unsplash.com/photo-1450133064473-71024230f91b?auto=format&fit=crop&w=800&q=80",
+        tag: "Marcas DIGERPI",
+        subservices: [
+          "Búsqueda de antecedentes fonéticos y viabilidad de registro marcario.",
+          "Registro de marcas de productos, servicios, marcas colectivas y nombres comerciales.",
+          "Contestación de objeciones oficiales e interposición de demandas de oposición.",
+          "Depósito y protección de derechos de autor, obras de software y creaciones artísticas.",
+          "Contratos de franquicia, cesión de derechos patrimoniales y licencias de uso marcario.",
+          "Acciones penales y civiles por falsificación, competencia desleal e infracción de marca."
+        ]
+      },
+      {
+        number: 6,
+        title: "Derecho Ambiental",
+        shortDesc: "Cumplimiento normativo, concesiones hídricas y defensa legal ante MiAmbiente.",
+        fullDesc: "Asesoramiento especializado para empresas agrícolas, hidroeléctricas, turísticas y constructoras en el cumplimiento de la Ley General del Ambiente (Ley 41 de 1998) y sus reglamentaciones. Salvaguardamos la viabilidad jurídica de sus operaciones mediante una gestión preventiva y defensa procesal en controversias ambientales en la provincia de Chiriquí.",
+        image: "https://images.unsplash.com/photo-1448375240586-882707db888b?auto=format&fit=crop&w=800&q=80",
+        tag: "Normativa MiAmbiente",
+        subservices: [
+          "Asesoría legal en la tramitación de Estudios de Impacto Ambiental (EsIA Categorías I, II y III).",
+          "Defensa en procesos administrativos sancionatorios y multas impuestas por MiAmbiente.",
+          "Solicitud de concesiones de agua para uso agropecuario, industrial o generación eléctrica.",
+          "Permisos de aprovechamiento forestal, planes de manejo y podas supervisadas.",
+          "Consultoría en adecuación a planes de ordenamiento territorial ambiental.",
+          "Litigios ecológicos y acciones de tutela para salvaguarda de fuentes hídricas y ecosistemas."
+        ]
+      },
+      {
+        number: 7,
+        title: "Derecho Agrario",
+        shortDesc: "Titulación de fincas, regularización ante ANATI y resolución de litigios en juzgados agrarios.",
+        fullDesc: "Chiriquí es el corazón productivo de Panamá. Brindamos soporte especializado en la regularización y titulación de tierras ante la Autoridad Nacional de Administración de Tierras (ANATI), resolución de conflictos limítrofes entre fincas, protección de derechos posesorios históricos y estructuración de negocios agrícolas y ganaderos de gran escala.",
+        image: "https://images.unsplash.com/photo-1500382017468-9049fed747ef?auto=format&fit=crop&w=800&q=80",
+        tag: "Tierras & ANATI",
+        subservices: [
+          "Tramitación integral de títulos de propiedad y titulación masiva ante ANATI.",
+          "Juicios agrarios de deslinde, amojonamiento y fijación de servidumbres de paso y acueducto.",
+          "Defensa de derechos posesorios rurales y amparos de posesión pacífica e ininterrumpida.",
+          "Contratos de arrendamiento agrario, pastoreo, aparcería y explotación cafetalera.",
+          "Saneamiento registral de fincas con duplicidad de folios o inconsistencias catastrales.",
+          "Procesos de prescripción adquisitiva agraria en juzgados especializados de Chiriquí."
+        ]
+      },
+      {
+        number: 8,
+        title: "Bancario, Seguros, Bienes Raíces y Contratos",
+        shortDesc: "Cierres inmobiliarios blindados, debida diligencia en compras y cobro de indemnizaciones.",
+        fullDesc: "Brindamos seguridad patrimonial en las transacciones más relevantes de su vida comercial y personal. Realizamos Due Diligence legal en adquisiciones de propiedades residenciales y comerciales en David, Boquete y playas chiricanas, intermediamos con entidades bancarias y exigimos el cumplimiento forzoso de pólizas de seguros por siniestros no reconocidos.",
+        image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?auto=format&fit=crop&w=800&q=80",
+        tag: "Inmobiliario & Contratos",
+        subservices: [
+          "Due Diligence inmobiliario: verificación exhaustiva en Registro Público de gravámenes y pleitos.",
+          "Elaboración y perfeccionamiento de Contratos de Promesa de Compraventa y Escrituras Públicas.",
+          "Asistencia en créditos hipotecarios bancarios, fideicomisos de garantía y cancelaciones de hipoteca.",
+          "Reclamación a compañías aseguradoras por pólizas de vida, salud, incendio y colisión vehicular.",
+          "Redacción de contratos mercantiles complejos, arrendamientos comerciales y joint ventures.",
+          "Demandas por incumplimiento contractual y resarcimiento de daños materiales y morales."
+        ]
+      },
+      {
+        number: 9,
+        title: "Derecho Contencioso-Administrativo",
+        shortDesc: "Demandas de Plena Jurisdicción y Nulidad ante la Sala Tercera de la Corte Suprema.",
+        fullDesc: "Cuando el Estado actúa al margen de la ley o lesiona sus derechos subjetivos, ejercemos las acciones de control de legalidad más contundentes del ordenamiento panameño. Litigamos ante la Sala Tercera de la Corte Suprema de Justicia y agotamos rigurosamente la vía gubernativa previa ante ministerios y municipios.",
+        image: "https://images.unsplash.com/photo-1589578527966-fdac0f44566c?auto=format&fit=crop&w=800&q=80",
+        tag: "Sala Tercera CSJ",
+        subservices: [
+          "Demandas Contencioso-Administrativas de Plena Jurisdicción para restablecimiento de derechos.",
+          "Demandas de Nulidad contra actos administrativos, decretos ejecutivos y resoluciones ilegales.",
+          "Reclamaciones de Responsabilidad Patrimonial del Estado por daños y perjuicios sufridos.",
+          "Recursos de Reconsideración y Apelación en la vía gubernativa previa.",
+          "Controversias en contrataciones públicas y recursos de impugnación ante el TACP.",
+          "Defensa frente a cobros coactivos ilegales de la DGI y Tesorerías Municipales."
+        ]
+      },
+      {
+        number: 10,
+        title: "Derecho Constitucional",
+        shortDesc: "Acciones de Amparo de Garantías, Hábeas Corpus e Inconstitucionalidad.",
+        fullDesc: "La Constitución es la norma suprema que resguarda su dignidad y libertades. Interponemos acciones constitucionales de choque inmediato para frenar arbitrariedades judiciales o administrativas, restituir la libertad personal amenazada o vulnerada y expulsar del ordenamiento jurídico normas contrarias a la Carta Fundamental de Panamá.",
+        image: "https://images.unsplash.com/photo-1505664194779-8beaceb93744?auto=format&fit=crop&w=800&q=80",
+        tag: "Garantías Fundamentales",
+        subservices: [
+          "Acciones de Amparo de Garantías Constitucionales contra autos u órdenes de autoridades arbitrarias.",
+          "Acciones de Hábeas Corpus preventivo, correctivo y reparador para proteger la libertad física.",
+          "Acciones de Hábeas Data para exigir acceso, rectificación o eliminación de datos reservados.",
+          "Demandas de Inconstitucionalidad ante el Pleno de la Corte Suprema de Justicia de Panamá.",
+          "Advertencias de Inconstitucionalidad incidentales dentro de procesos judiciales en curso.",
+          "Defensa y tutela judicial efectiva de derechos humanos y debido proceso legal."
+        ]
+      },
+      {
+        number: 11,
+        title: "Derecho de Procesos Judiciales y Práctica Forense",
+        shortDesc: "Litigación oral de alto impacto, medidas cautelares, embargos y ejecución de sentencias.",
+        fullDesc: "La práctica forense exige temple, estrategia probatoria y excelencia argumentativa en sala de audiencia. Diseñamos tácticas procesales milimétricas para salvaguardar sus intereses desde la interposición de la demanda hasta la ejecución efectiva de la sentencia favorable en tribunales de la República de Panamá.",
+        image: "https://images.unsplash.com/photo-1479142506502-19b3a3b7ff33?auto=format&fit=crop&w=800&q=80",
+        tag: "Litigio & Embargos",
+        subservices: [
+          "Interposición y contestación de Demandas Ordinarias Civiles de Mayor Cuantía.",
+          "Solicitud de medidas cautelares previas, secuestros judiciales de bienes y retención de cuentas.",
+          "Interrogatorio y contrainterrogatorio estratégico de peritos y testigos en juicio.",
+          "Ejecución coactiva de sentencias judiciales y procesos ejecutivos de pagarés y letras de cambio.",
+          "Homologación y ejecución de laudos arbitrales y sentencias judiciales extranjeras (Exequátur).",
+          "Defensa frente a tercerías de dominio y oposición a embargos ilegítimos."
+        ]
+      },
+      {
+        number: 12,
+        title: "Redacción de Documentos Jurídicos",
+        shortDesc: "Constitución de sociedades, fundaciones de interés privado, testamentos y contratos blindados.",
+        fullDesc: "Un documento legal impecable previene años de litigios futuros. Redactamos y protocolizamos todo tipo de instrumentos jurídicos, comerciales y notariales con claridad meridiana y absoluta validez registral en la República de Panamá, asegurando que su voluntad quede preservada con blindaje legal definitivo.",
+        image: "https://images.unsplash.com/photo-1455390582262-044cdead277a?auto=format&fit=crop&w=800&q=80",
+        tag: "Sociedades & Notarías",
+        subservices: [
+          "Constitución y pactos sociales de Sociedades Anónimas (S.A.) y Sociedades de Emprendimiento (SEP).",
+          "Creación de Fundaciones de Interés Privado (FIP) para planificación y blindaje patrimonial.",
+          "Redacción de Testamentos Abiertos y Cerrados y mandatos sucesorios.",
+          "Poderes Generales, Especiales y Judiciales con cláusulas especiales de representación.",
+          "Minutas para Escrituras Públicas de compraventa, donaciones, segregaciones y permutas.",
+          "Convenios transaccionales de finiquito con valor de cosa juzgada."
+        ]
+      },
+      {
+        number: 13,
+        title: "Formación y Ejercicio Profesional del Abogado en Panamá",
+        shortDesc: "Consultoría deontológica, acompañamiento para idoneidad y capacitación procesal estratégica.",
+        fullDesc: "El ejercicio de la abogacía en Panamá se fundamenta en la probidad, el conocimiento continuo y el estricto respeto a la Ley 9 de 1984 y el Código de Ética Judicial. El Licdo. Jaime Gómez Araúz ofrece asesoría y consultoría estratégica para nuevos profesionales del derecho, pasantes y despachos en formación sobre gestión procesal, cumplimiento normativo y litigación práctica.",
+        image: "https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=800&q=80",
+        tag: "Ética & Práctica Forense",
+        subservices: [
+          "Asesoramiento en el trámite y requisitos para la obtención de la Idoneidad Profesional ante la Corte Suprema de Justicia.",
+          "Capacitación en técnicas avanzadas de litigación oral en el Sistema Penal Acusatorio (SPA).",
+          "Consultoría sobre ética profesional, régimen disciplinario y prevención de faltas deontológicas.",
+          "Adecuación de despachos a normativas de prevención de blanqueo de capitales (Ley 23 de 2015).",
+          "Organización y digitalización estratégica del expediente judicial y gestión de despacho.",
+          "Mentoría procesal en manejo de audiencias de garantías y juicio oral."
+        ]
+      }
+    ];
+
+    const FAQS = [
+      {
+        q: "¿Qué debo hacer inmediatamente si un familiar es aprehendido o citado en Chiriquí?",
+        a: "Contactar de inmediato a un abogado defensor idóneo antes de rendir declaración. Las primeras 48 horas son críticas para la audiencia de garantías de control de aprehensión y medidas cautelares en el Sistema Penal Acusatorio (SPA) de David. Ofrecemos asistencia de urgencia penal 24/7."
+      },
+      {
+        q: "¿Cómo se tramita un proceso de divorcio y cuánto tiempo puede demorar en David, Chiriquí?",
+        a: "Por mutuo consentimiento puede ser sumamente expedito en los Juzgados de Familia de David. Si es contencioso, requiere formal demanda y probanzas. Buscamos siempre la alternativa que mejor proteja los intereses de los hijos y el patrimonio familiar."
+      },
+      {
+        q: "¿Puedo titular una finca o terreno en posesión ante la ANATI en Chiriquí?",
+        a: "Sí. Demostrando la posesión pacífica, pública e ininterrumpida con planos aprobados e inspecciones oculares. Gestionamos todo el trámite hasta la inscripción en el Registro Público."
+      },
+      {
+        q: "¿Cómo cumple este despacho con la Ley 81 de Protección de Datos de Panamá?",
+        a: "Garantizamos el consentimiento libre, previo e informado para todo tratamiento de datos, además de proteger de manera irrestricta el secreto profesional de la abogacía y los derechos ARCO."
+      },
+      {
+        q: "¿Dónde está ubicada la oficina y cómo puedo agendar una cita?",
+        a: "Nuestra oficina física se encuentra en Villa Isabela, David, Chiriquí, Oficina B-9. Puede contactarnos al WhatsApp +507 6455-6443 o al correo licd.jaimegomez@proton.me."
+      }
+    ];
+
+    document.addEventListener('DOMContentLoaded', () => {
+      const year = new Date().getFullYear();
+      if(document.getElementById('current-year-2')) document.getElementById('current-year-2').textContent = year;
+
+      const grid = document.getElementById('practice-cards-grid');
+      const selectDropdown = document.getElementById('form-service');
+
+      PRACTICE_AREAS_DATA.forEach((area) => {
+        const opt = document.createElement('option');
+        opt.value = area.title;
+        opt.textContent = `${area.number}. ${area.title}`;
+        if(selectDropdown) selectDropdown.appendChild(opt);
+
+        if(grid) {
+          const card = document.createElement('div');
+          card.className = "scroll-reveal group relative rounded-xl overflow-hidden cursor-pointer aspect-3-4 border border-slate-200 hover:border-[#D4AF37] shadow-md hover:shadow-2xl transition-all duration-300 flex flex-col justify-end bg-slate-900";
+          card.dataset.revealDelay = ((area.number - 1) % 4) * 100;
+          card.innerHTML = `
+            <img src="${area.image}" alt="${area.title}" class="absolute inset-0 w-full h-full object-cover group-hover:scale-105 transition-transform duration-700 z-0 filter brightness-[0.82] contrast-[1.05]" referrerpolicy="no-referrer">
+            <div class="absolute top-3 left-3 z-20">
+              <span class="inline-flex items-center justify-center w-7 h-7 rounded-full bg-white/95 border border-[#D4AF37] text-xs font-bold text-[#0A192F] shadow-sm backdrop-blur-md">
+                ${area.number < 10 ? '0' + area.number : area.number}
+              </span>
+            </div>
+            <div class="absolute top-3 right-3 z-20">
+              <span class="text-[10px] font-bold uppercase text-slate-900 bg-white/95 border border-slate-200 px-2 py-0.5 rounded shadow-sm backdrop-blur-md">
+                ${area.tag}
+              </span>
+            </div>
+            <div class="absolute inset-0 bg-gradient-to-t from-slate-950 via-slate-950/70 to-transparent z-10"></div>
+            <div class="relative z-20 p-5 flex flex-col justify-end">
+              <h3 class="font-serif text-lg font-bold text-white group-hover:text-[#E5C07B] transition-colors leading-snug">
+                ${area.title}
+              </h3>
+              <p class="mt-2 text-xs text-slate-200 line-clamp-3 leading-relaxed">
+                ${area.shortDesc}
+              </p>
+              <div class="mt-4 pt-3 border-t border-slate-700/80 flex items-center justify-between">
+                <span class="text-xs font-bold text-[#E5C07B]">Ver Detalles</span>
+                <div class="w-6 h-6 rounded-full bg-[#D4AF37] flex items-center justify-center transition-transform group-hover:scale-110">
+                  <i class="fa-solid fa-arrow-up-right text-[11px] text-slate-950"></i>
+                </div>
+              </div>
+            </div>
+          `;
+          card.addEventListener('click', () => openServiceModal(area));
+          grid.appendChild(card);
+        }
+      });
+
+      const faqsContainer = document.getElementById('faqs-container');
+      if(faqsContainer) {
+        FAQS.forEach((faq) => {
+          const item = document.createElement('div');
+          item.className = "rounded-xl border border-slate-200 bg-white shadow-sm overflow-hidden";
+          item.innerHTML = `
+            <button class="w-full text-left p-5 flex items-center justify-between gap-4 font-serif text-base sm:text-lg font-bold text-[#0A192F] hover:text-[#B8860B] transition-colors">
+              <span>${faq.q}</span>
+              <i class="fa-solid fa-chevron-down text-sm text-slate-400 transition-transform duration-300"></i>
+            </button>
+            <div class="faq-content hidden px-5 pb-5 text-sm text-slate-600 leading-relaxed border-t border-slate-100 pt-3">
+              <p>${faq.a}</p>
+            </div>
+          `;
+          const btn = item.querySelector('button');
+          const content = item.querySelector('.faq-content');
+          const icon = item.querySelector('i');
+          btn.addEventListener('click', () => {
+            const isHidden = content.classList.contains('hidden');
+            content.classList.toggle('hidden');
+            icon.style.transform = isHidden ? 'rotate(180deg)' : 'rotate(0deg)';
+          });
+          faqsContainer.appendChild(item);
+        });
+      }
+
+      const mobileBtn = document.getElementById('mobile-menu-btn');
+      const mobileMenu = document.getElementById('mobile-menu');
+      if(mobileBtn && mobileMenu) {
+        mobileBtn.addEventListener('click', () => mobileMenu.classList.toggle('hidden'));
+        document.querySelectorAll('.mobile-nav-link').forEach(link => {
+          link.addEventListener('click', () => mobileMenu.classList.add('hidden'));
+        });
+      }
+
+      // ScrollSpy: Resaltado automático en color oro según sección visible
+      const sectionIds = ['inicio', 'sobre-el-abogado', 'areas-de-practica', 'consulta', 'faqs', 'ubicacion'];
+      const desktopNavLinks = document.querySelectorAll('#desktop-nav .nav-link');
+      const mobileNavLinks = document.querySelectorAll('#mobile-menu .mobile-nav-link');
+
+      function updateActiveNavOnScroll() {
+        const scrollPosition = window.scrollY + 180;
+        let currentSection = 'inicio';
+
+        for (const id of sectionIds) {
+          const sectionEl = document.getElementById(id);
+          if (sectionEl) {
+            const top = sectionEl.offsetTop;
+            const height = sectionEl.offsetHeight;
+            if (scrollPosition >= top && scrollPosition < top + height) {
+              currentSection = id;
+              break;
+            } else if (scrollPosition >= top) {
+              currentSection = id;
+            }
+          }
+        }
+
+        if (window.innerHeight + window.scrollY >= document.documentElement.scrollHeight - 60) {
+          currentSection = 'ubicacion';
+        }
+
+        desktopNavLinks.forEach((link) => {
+          const target = link.getAttribute('href').replace('#', '');
+          if (target === currentSection) {
+            link.classList.add('active-gold');
+            link.classList.remove('text-slate-700');
+          } else {
+            link.classList.remove('active-gold');
+            link.classList.add('text-slate-700');
+          }
+        });
+
+        mobileNavLinks.forEach((link) => {
+          const target = link.getAttribute('href').replace('#', '');
+          if (target === currentSection) {
+            link.classList.add('text-[#B8860B]', 'font-bold', 'bg-amber-50', 'border-l-4', 'border-[#D4AF37]');
+            link.classList.remove('text-slate-800');
+          } else {
+            link.classList.remove('text-[#B8860B]', 'font-bold', 'bg-amber-50', 'border-l-4', 'border-[#D4AF37]');
+            link.classList.add('text-slate-800');
+          }
+        });
+      }
+
+      window.addEventListener('scroll', updateActiveNavOnScroll, { passive: true });
+      updateActiveNavOnScroll();
+
+      const form = document.getElementById('whatsapp-inquiry-form');
+      if(form) {
+        form.addEventListener('submit', (e) => {
+          e.preventDefault();
+          const errorDiv = document.getElementById('form-error');
+          if(errorDiv) errorDiv.classList.add('hidden');
+
+          const name = document.getElementById('form-fullname').value.trim();
+          const phone = document.getElementById('form-phone').value.trim();
+          const service = document.getElementById('form-service').value;
+          const msg = document.getElementById('form-message').value.trim();
+          const ley81 = document.getElementById('form-ley81').checked;
+
+          if (!ley81) {
+            if(errorDiv) {
+              errorDiv.textContent = "Debe aceptar el tratamiento de datos conforme a la Ley 81 de Protección de Datos Personales de Panamá.";
+              errorDiv.classList.remove('hidden');
+            }
+            return;
+          }
+
+          const waText = `Hola Licdo. Jaime Gómez, mi nombre es ${name}. Necesito asesoría en ${service}. Detalles de mi caso: ${msg}`;
+          const waUrl = `https://wa.me/50764556443?text=${encodeURIComponent(waText)}`;
+          window.open(waUrl, '_blank');
+        });
+      }
+
+      const modalForm = document.getElementById('modal-whatsapp-form');
+      if(modalForm) {
+        modalForm.addEventListener('submit', (e) => {
+          e.preventDefault();
+          const name = document.getElementById('modal-form-fullname').value.trim();
+          const phone = document.getElementById('modal-form-phone').value.trim();
+          const service = document.getElementById('modal-form-service-fixed').value;
+          const msg = document.getElementById('modal-form-message').value.trim();
+          const ley81 = document.getElementById('modal-form-ley81').checked;
+
+          if (!ley81) {
+            alert("Debe aceptar el tratamiento de sus datos conforme a la Ley 81 de Panamá.");
+            return;
+          }
+
+          const waText = `Hola Licdo. Jaime Gómez, mi nombre es ${name}. Necesito asesoría en ${service}. Detalles de mi caso: ${msg}`;
+          const waUrl = `https://wa.me/50764556443?text=${encodeURIComponent(waText)}`;
+          window.open(waUrl, '_blank');
+        });
+      }
+
+      if (!localStorage.getItem('jaime_gomez_cookie_consent')) {
+        const cb = document.getElementById('cookie-banner');
+        if(cb) cb.classList.remove('hidden');
+      }
+      const accCookie = document.getElementById('accept-cookies-btn');
+      if(accCookie) {
+        accCookie.addEventListener('click', () => {
+          localStorage.setItem('jaime_gomez_cookie_consent', 'accepted');
+          document.getElementById('cookie-banner').classList.add('hidden');
+        });
+      }
+
+      const privacyModal = document.getElementById('privacy-modal');
+      const termsModal = document.getElementById('terms-modal');
+      const bindModal = (btnId, modalEl, show) => {
+        const btn = document.getElementById(btnId);
+        if(btn && modalEl) {
+          btn.addEventListener('click', () => {
+            if(show) modalEl.classList.remove('hidden');
+            else modalEl.classList.add('hidden');
+          });
+        }
+      };
+
+      bindModal('open-privacy-modal-btn', privacyModal, true);
+      bindModal('close-privacy-btn', privacyModal, false);
+      bindModal('open-terms-modal-btn', termsModal, true);
+      bindModal('close-terms-btn', termsModal, false);
+
+      const closeModalBtn = document.getElementById('close-modal-btn');
+      if(closeModalBtn) closeModalBtn.addEventListener('click', closeServiceModal);
+
+      // Hero Background Video Autoplay Safe Guard
+      const heroVideo = document.getElementById('hero-bg-video');
+      const unlockBtn = document.getElementById('hero-play-unlock-btn');
+      if (heroVideo) {
+        heroVideo.muted = true;
+        heroVideo.defaultMuted = true;
+        const playPromise = heroVideo.play();
+        if (playPromise !== undefined) {
+          playPromise.catch(() => {
+            if (unlockBtn) {
+              unlockBtn.classList.remove('hidden');
+              unlockBtn.classList.add('inline-flex');
+              unlockBtn.addEventListener('click', () => {
+                heroVideo.play();
+                unlockBtn.classList.add('hidden');
+                unlockBtn.classList.remove('inline-flex');
+              });
+            }
+          });
+        }
+      }
+
+      // Scroll Reveal progressive animation observer (fade-in & slide-up)
+      if ('IntersectionObserver' in window) {
+        const revealObserver = new IntersectionObserver((entries) => {
+          entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              const delay = parseInt(entry.target.dataset.revealDelay || '0', 10);
+              setTimeout(() => {
+                entry.target.classList.add('is-revealed');
+              }, delay);
+              revealObserver.unobserve(entry.target);
+            }
+          });
+        }, { rootMargin: '0px 0px -40px 0px', threshold: 0.1 });
+
+        document.querySelectorAll('.scroll-reveal').forEach(el => revealObserver.observe(el));
+      } else {
+        document.querySelectorAll('.scroll-reveal').forEach(el => el.classList.add('is-revealed'));
+      }
+    });
+
+    function openServiceModal(area) {
+      document.getElementById('modal-service-number').textContent = area.number < 10 ? '0' + area.number : area.number;
+      document.getElementById('modal-service-tag').textContent = area.tag;
+      document.getElementById('modal-service-title-bar').textContent = area.title;
+      document.getElementById('modal-service-title').textContent = area.title;
+      document.getElementById('modal-service-short').textContent = area.shortDesc;
+      document.getElementById('modal-service-desc').textContent = area.fullDesc;
+      document.getElementById('modal-service-img').src = area.image;
+      document.getElementById('modal-form-service-fixed').value = area.title;
+
+      const subList = document.getElementById('modal-service-sublist');
+      subList.innerHTML = '';
+      area.subservices.forEach(sub => {
+        const li = document.createElement('li');
+        li.className = "flex items-start gap-2 text-slate-800";
+        li.innerHTML = `<i class="fa-solid fa-circle-check text-[#B8860B] mt-1 flex-shrink-0"></i><span>${sub}</span>`;
+        subList.appendChild(li);
+      });
+
+      document.getElementById('service-modal').classList.remove('hidden');
+      document.body.style.overflow = 'hidden';
+    }
+
+    function closeServiceModal() {
+      const modal = document.getElementById('service-modal');
+      if(modal) modal.classList.add('hidden');
+      document.body.style.overflow = '';
+    }
+
+    window.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') {
+        closeServiceModal();
+        const pModal = document.getElementById('privacy-modal');
+        if(pModal) pModal.classList.add('hidden');
+        const tModal = document.getElementById('terms-modal');
+        if(tModal) tModal.classList.add('hidden');
+      }
+    });
+  </script>
+</body>
+</html>
